@@ -1,0 +1,118 @@
+/*anotaciones*/
+body{
+    background-image: url(starWarsProject/back2.jpeg)
+    /*imagen de fondo*/
+}
+.contenedor{
+    background-color: rgba(255, 255, 255, 1);
+    width: 80%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+
+
+}
+
+.header{
+
+}
+
+.encabezado{
+    background-image: url(starWarsProject/header.jpg);
+    text-align: right;
+    padding: 20px;
+
+}
+
+h1 {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0;
+
+}
+
+h1 span {
+        color: crimson}
+
+.rojo, .azul, .verde {
+    float: left;
+    width: 30%
+
+    /* display: inline-block;
+    width: 30%;*/
+}
+.clear{
+    clear: both;
+}
+
+.rojo{
+    border-right: 4px dotted red;
+
+}
+.azul{
+    border-right: 4px dotted blue;
+
+}
+
+.rojo h3{
+    color: white;
+    background: linear-gradient(30deg, red, black);
+    transition: all 1s;
+    height: 20px;
+}
+
+
+.azul h3{
+    color: white;
+    background: linear-gradient(30deg, blue, black);
+   /* transition: <propiedad> <duracion> <timming> <demora> */
+   transition: all 1s 0.5s;
+   height: 20px;
+}
+
+
+.verde h3{
+    color: white;
+    background: linear-gradient(30deg, green, black);
+    transition: all 1s 1s;
+    height: 20px;
+        
+}
+
+/* gradientes repetidos
+ background: repeating-linear-gradient (poner los colores)
+ */
+
+ h3:hover {
+     height: 100px;
+     width: 500px;
+     transition: ease-in-out
+ }
+ /* :hover es una seudo-clase ... por ejemplo para darle una validez a un valor como en los formularios de mail */
+
+ .cuadrado {
+     height: 200px;
+     width: 200px;
+     background: blue;
+     animation-iteration-count: infinite;
+     /* circulo ::  border-radius: 90%; */
+    }
+
+ .circulo {
+        height: 200px;
+        width: 200px;
+        background: red;
+        animation-iteration-count: infinite;
+        border-radius: 90%;
+   
+    }
+ .puntas {
+     height: 200px;
+     width: 200px;
+     background: purple;
+     animation-iteration-count: infinite;
+     border-radius: 10%;
+
+ }
+
